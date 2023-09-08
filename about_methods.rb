@@ -45,9 +45,9 @@ class AboutMethods < Neo::Koan
   end
 
   # ------------------------------------------------------------------
-
+ 
   def method_with_defaults(a, b=:default_value)
-    [a, b]
+    return [a, b]
   end
 
   def test_calling_with_default_values
